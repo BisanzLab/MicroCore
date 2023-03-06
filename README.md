@@ -6,19 +6,19 @@
 This protocol describes a screening strategy to screen microbes for growth/metabolic traits. A 96 well plate of organisms can be assayed in quadruplicate (4 vehicle and 4 test compound well per strain) using dual 384 well plates. To avoid human errors and cross contamination. Plates are stamped using pin replicators and the 384 well plates set up using robotics. All media and supplies need to be deoxygenated by placing in the anaerobic chamber of a minimum of 24 h before experimentation. 
 
 ## Materials
-- [ ] Deep well plate with arrayed strain collection (CATALOG NUMBER OF DEEP WELL)
-- [ ] 96 well pin replicator (CATALOG NUMBER)
-- [ ] 96 well culture plate (CATALOG NUMBER)
+- [ ] Deep well plate with arrayed strain collection (CATALOG NUMBER：VWR 75870-796)
+- [ ] 96 well pin replicator (CATALOG NUMBER: Fisher Sci NC1567338)
+- [ ] 96 well culture plate (CATALOG NUMBER: Fisher Sci 877254)
 - [ ] Appropriate growth media (Often BHI CHV or BHI CHVR: see media recipes)
 - [ ] Sterile test compound disolved at least 100x concentration in water (prefered), DMSO, DMF, or methanol
-- [ ] Sterile Breathable Plate Seals (CATALOG NUMBER)
+- [ ] Sterile Breathable Plate Seals (CATALOG NUMBER: VWR 490006-676)
 - [ ] Sterile Aluminum Foil Plate Seals
-- [ ] 2 x 384 well plates (CATALOG NUMBER)
+- [ ] 2 x 384 well plates (CATALOG NUMBER: Sigma CLS3701-100EA)
 - [ ] Anaerobic Chamber with 20% CO2, 5% H2, 75% N2
 - [ ] OT2 with 20 µL multichannel head on right mount with 1 boxes of tips
 - [ ] 8-channel 200µL pipette with appropriate tips
-- [ ] ICE BLOCK THINGY (CATALOG NUMBER)
-- [ ] Plate vortex (IKA CATALOG NUMBER)
+- [ ] ICE BLOCK THINGY (CATALOG NUMBER: Neta Sci 432051)
+- [ ] Plate vortex (IKA CATALOG NUMBER: Neta Sci IKA-0003319000)
 - [ ] 2 Multiskan SkyHigh Plate Readers
 
 # Protocol
