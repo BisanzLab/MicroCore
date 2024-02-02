@@ -33,7 +33,7 @@ Please ensure all files follow the following directory structure:
 PreOD<- "/data/MicroCore/runs/Mercury_Jan2023/2022Dec30_Mercury_Plate1_Low/2022Dec30_Plate1_MeHg_Low_PreRun.xlsx"
 PlateL<-"/data/MicroCore/runs/Mercury_Jan2023/2022Dec30_Mercury_Plate1_Low/2022Dec30_Plate1_MeHg_Low_L.xlsx"
 PlateR<-"/data/MicroCore/runs/Mercury_Jan2023/2022Dec30_Mercury_Plate1_Low/2022Dec30_Plate1_MeHg_Low_R.xlsx"
-Layout<-"/data/MicroCore/strain_arrays/September2022/StrainCollection_Plates.xlsx"
+Layout<-"/data/MicroCore/strain_arrays/January2024/straincollectionplates_layouts.xlsx"
 PlateNumber<-1
 ```
 
@@ -134,7 +134,7 @@ write_csv(growthdata, "Processed_GrowthData.csv")
 
 ```{r}
 growthdata %>%
-  filter(StrainID %in% c("JEB00015_IS", "JEB00046_IS")) %>%
+  filter(StrainID %in% c("JEB00015_IS", "JEB00285_IS")) %>%
   ggplot(aes(x=Time_h, y=ODnorm, color=Drug, group=paste(Well384, Side), linetype=Side)) +
   geom_line() +
   #geom_point(alpha=0.5, shape=16) +
